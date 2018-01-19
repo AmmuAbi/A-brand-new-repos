@@ -1,15 +1,14 @@
 #include<stdio.h>
 void main()
 {
-int n;
-printf("enter the number");
-scanf("%d",&n);
-if((n%2)==0)
+int n,m;
+printf("enter the interval");
+scanf("%d%d",&n,&m);
+  for(i=n;i<=m;i+1)
+  {
+if((i%2)==0)
 {
-printf("even");
+printf("%d",i);
 }
-else
-{
-printf("not an even number");
-}
+  }
 }
