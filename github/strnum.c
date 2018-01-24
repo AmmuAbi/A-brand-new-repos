@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int main(void)
+void main()
 {
 	char a[10];
 	int i,l,count=0;
@@ -17,7 +17,5 @@ int main(void)
 	printf("no");
 	else
 	printf("yes");
-	
 
-return 0;
 }
