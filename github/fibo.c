@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-int f=0;s=1;v,limit,i;
+int f=0;s=1;v,n,i;
 printf("enter the limit");
-scanf("%d"&limit);
+scanf("%d"&n);
 printf("%d%",f,s);
 for(i=2;i<l;i++)
 {
