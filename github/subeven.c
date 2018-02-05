@@ -2,14 +2,14 @@
 #include<conio.h>
 void main()
 {
-int a,s,add;
+int a,s,sub;
 printf("entre the two nmbers");
 scanf("%d%d",&a,&s);
-add=a+s;
-printf("the sum of two numbers is %d",add);
-if(add%2==0)
+sub=a-s;
+printf("the sum of two numbers is %d",sub);
+if(sub%2==0)
 {
-printf(even);
+printf("even");
 }
 else
 {
