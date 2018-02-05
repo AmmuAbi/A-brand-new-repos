@@ -2,12 +2,12 @@
 #include<conio.h>
 void main()
 {
-int a,s,sub;
+int a,s,add;
 printf("entre the two nmbers");
 scanf("%d%d",&a,&s);
-sub=a-s;
-printf("the difference of two numbers is %d",sub);
-if(sub%2==0)
+add=a+s;
+printf("the sum of two numbers is %d",add);
+if(add%2==0)
 {
 printf("even");
 }
