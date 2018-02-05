@@ -3,9 +3,9 @@
 void main()
 {
 int num;
-printf("enter the number to be checked for multiple of 7");
+printf("enter the number to be checked for multiple of 13");
 scanf("%d",&num);
-if(num%7==0)
+if(num%13==0)
 {
 printf("it is a multiple");
 }
