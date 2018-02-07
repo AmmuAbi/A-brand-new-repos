@@ -16,4 +16,8 @@ if(flag!=0)
 {
    printf("composite");
   }
+   else
+   {
+      printf("no");
+   }
 }
