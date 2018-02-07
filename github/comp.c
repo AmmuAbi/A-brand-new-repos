@@ -12,12 +12,8 @@ if(s%i==0)
 flag=1;
 }
 }
-if(flag==0)
+if(flag!=0)
 {
-printf("prime");
-}
-  else
-  {
-   printf("not prime");
+   printf("composite");
   }
 }
