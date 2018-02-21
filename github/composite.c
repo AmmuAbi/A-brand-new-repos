@@ -1,18 +1,19 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
-int s,i;
-int flag=0;
+int a,i;
+int f=0;
 printf("enter the number to be checked for prime");
-scanf("%d",s);
-for(i=2;i<=s/2;i++)
+scanf("%d",a);
+for(i=2;i<=a/2;i++)
 {
-if(s%i==0)
+if(a%i==0)
 {
-flag=1;
+f=1;
 }
 }
-if(flag!=0)
+if(f!=0)
 {
    printf("composite");
   }
