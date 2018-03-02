@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 int main(void) {
-	int a[10],min,n,i;
-	printf("enter the limit:\n");
-	scanf("%d",&n);
+	int a[10],mini;
 	printf("the numbers are:\n");
-	for(i=0;i<n;i++)
+	for(i=0;i<10;i++)
 	{
 		scanf("%d",&a[i]);
 	}
 	min=a[0];
-	for(i=0;i<n;i++)
+	for(i=0;i<10;i++)
 	{
 		if(a[i]<min)
 		{
