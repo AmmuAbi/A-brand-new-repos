@@ -1,14 +1,13 @@
 #include<stdio.h>
 void main()
+  int a,c=0;
+printf("Enter the number");
+scanf("%d",a);
+while(a>0)
 {
-int n,sum=0;
-printf("enter the number");
-scanf("%d",n);
-while(n>0)
-{
-n=n/10;
-sum=sum+1;
+a=a/10;
+c=c+1;
 }
-printf("sum of integer digit is %d",sum);
+printf("sum of integer digit is %d",c);
 }
 
